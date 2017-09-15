@@ -1,0 +1,32 @@
+{
+  "name": "sassline",
+  "version": "2.1.2",
+  "description": "Set text on the web to a baseline grid with Sass & rems using a responsive modular-scale.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/designbyjake/sassline.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "grunt-php": "^1.5.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.2",
+    "gulp-connect-php": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "sass",
+    "baseline",
+    "boilerplate",
+    "modular-scale"
+  ],
+  "author": "Lukáš Műller",
+  "license": "MIT"
+}

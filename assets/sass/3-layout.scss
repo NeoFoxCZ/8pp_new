@@ -1,0 +1,11 @@
+body{
+  background-color: $bgcolor1;
+  margin:0;
+}
+
+.redirect{
+  color: gray;
+  &:hover{
+    color: $textcolor-hover;
+  }
+}

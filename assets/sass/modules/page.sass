@@ -1,0 +1,21 @@
+.page
+  @include flexbox()
+  @include flex-direction(row)
+  @include justify-content(space-between)
+  height: 100%
+  &Frame
+    height: 100%
+    max-width: 50%
+    &:first-child
+      margin-top: 100px
+      h1
+        color: $textcolor-extra
+    &:nth-child(2)
+      background-color: $bgcolor2
+      min-height: 100%
+    img
+      @include img-responsive()
+  &__text
+    color: $textcolor-default
+  &__contact
+

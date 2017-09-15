@@ -1,0 +1,49 @@
+$breakpoints: (
+  break-0: 0,     // 0px       Mobile first
+  break-1: 640,   // 640px   ~ Small tablet up
+  break-2: 800,   // 800px   ~ Large tablet up
+  break-3: 1024,  // 1024px  ~ Desktop up
+  break-4: 1600   // 1600px  ~ Large desktop up
+) !default;
+$rootsizes: (
+  rootsize-0: 12,   // 24px line-height body text
+  rootsize-1: 14,   // 28px line-height body text
+  rootsize-2: 15,   // 30px line-height body text
+  rootsize-3: 17,   // 34px line-height body text
+  rootsize-4: 19    // 38px line-height body text
+) !default;
+$measures: (
+  measure-0: 500,  // 500px wide
+  measure-1: 550,  // 550px wide
+  measure-2: 600,  // 600px wide
+  measure-3: 680,  // 680px wide
+  measure-4: 750   // 750px wide
+) !default;
+$maxwidths: (
+  width-0: 500,  // 500px wide
+  width-1: 600,  // 600px wide
+  width-2: 800,  // 800px wide
+  width-3: 1100, // 110px wide
+  width-4: 1300  // 1300px wide
+) !default;
+$gutterwidths: (
+  small: 1rem,
+  medium: 2rem,
+  large: 4rem
+) !default;
+
+//widths of web
+$mobile-width: 360px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$desktop-extra-width: 1500px;
+
+//colors
+$bgcolor1: #f5f2ed;
+$bgcolor2: #b49c7a;
+
+$textcolor-default: #000;
+$textcolor-hover: #d7bc4a;
+$textcolor-extra: #b49c7a;
+
+

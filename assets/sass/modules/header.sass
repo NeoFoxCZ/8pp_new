@@ -1,0 +1,23 @@
+.header
+  &Logo
+    @include flexbox()
+    @include flex-direction(row)
+    @include justify-content(center)
+    @include align-items(center)
+    position: absolute
+    left: 60px
+    right: 0
+    top: 20px
+
+    img
+      max-height: 83px
+      @include img-responsive()
+
+      &:nth-child(2)
+        border-top-right-radius: 15px
+        border-top-left-radius: 15px
+        border-bottom-left-radius: 20px
+        border-bottom-right-radius: 20px
+        max-height: 45px
+        @include img-responsive()
+  &Menu
